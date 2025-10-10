@@ -3,22 +3,26 @@
 // Blue - D14
 // Yellow - D12
 
-// Button - D25
-// light sensor - D33
-
-// LCD I2C - SDA: D21
-// LCD I2C - SCL: D22
-
 
 #include "Arduino.h"
+#include "WiFi.h"
+#include "HTTPClient.h"
+#include <ArduinoJson.h>
 
-/****************************************************/
-void setup(void) {
 
+/*************************
+ * SETUP
+ */
+void setup()
+{
+    // Your code here
 }
 
 
-/****************************************************/
-void loop(void) {
-
+/*************************
+ * LOOP
+ */
+void loop() 
+{
+  // Your code here
 }
