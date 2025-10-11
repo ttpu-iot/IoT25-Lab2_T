@@ -22,6 +22,8 @@ You need to finish following exercises
 
 <img src="image.png" alt="ESP32 Pin Configuration" width="70%">
 
+<img src="image-1.png" alt="ThingSpeak Channel Setup" width="70%">
+
 ----------
 ## Goal 
 In this lab, your ESP32 connects to the internet and **reads** LED states from the cloud via a given **HTTP** API. Based on the response, it **turns ON/OFF** the four LEDs: **Red (D26)**, **Green (D27)**, **Blue (D14)**, **Yellow (D12)**.
@@ -155,4 +157,4 @@ We are interested in the `feeds` array, and inside it, the first (and only) obje
 - [ ] On startup, Serial prints `your name and lab-2`  
 - [ ] ESP32 connects to `Wokwi-GUEST` and prints its **IP**  
 - [ ] Every ~5 sec: perform **HTTP GET** request to the **Read API**, get the response as **raw JSON** string, print it to Serial, parse it using ArduinoJson library and update all 4 LEDS accordingly.  
-- [ ] Response code other than 200 is printed as error, but program keeps running and retries again  
+- [ ] Response code other than 200 is printed as error, but program keeps running and retries again
