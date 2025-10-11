@@ -58,7 +58,7 @@ http://api.thingspeak.com/update?api_key=H1R8L3H5EYZTLZ4O&field1=HIGH&field2=LOW
     - `field2` = Green LED
     - `field3` = Blue LED
     - `field4` = Yellow LED
-    - `field5` = Name (not used here)
+    - `field5` = Name
   
 
 ----------

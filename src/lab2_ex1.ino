@@ -10,6 +10,8 @@
 #include <ArduinoJson.h>
 
 
+// Your code here - global declarations
+
 /*************************
  * SETUP
  */
